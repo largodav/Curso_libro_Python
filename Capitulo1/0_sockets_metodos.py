@@ -9,8 +9,9 @@ try:
     print(socket.getfqdn('www.yahoo.es'))
 except socket.error as error:
           print (str(error))
-          print('Error de conexion')
+          print('Error de conexion...')
           sys.exit()
+
 
 
 
