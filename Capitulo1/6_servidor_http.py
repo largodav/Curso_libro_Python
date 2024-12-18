@@ -6,7 +6,7 @@ import socket
 
 mySocket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 #permite conectar la direccion con el socket en el puerto indicado
-mySocket.bind(('localhost',8080))
+mySocket.bind((('localhost',8080))
 #poner en cola un maximo de 5 solicitudes de conexion TCP
 mySocket.listen(5)
 
